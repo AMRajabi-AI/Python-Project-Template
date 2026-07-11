@@ -3,6 +3,15 @@ venv/
 
 # Python Cache
 __pycache__/
+*.py[cod]
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checking
+.mypy_cache/
 
 # IDE Settings
 .vscode/
@@ -11,8 +20,16 @@ __pycache__/
 # Environment Variables
 .env
 
+# Build Files
+build/
+dist/
+
 # Log Files
 *.log
+
+# Temporary Files
+*.tmp
+*.temp
 
 # Operating System Files
 .DS_Store
